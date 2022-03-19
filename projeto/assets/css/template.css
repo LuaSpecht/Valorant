@@ -34,12 +34,14 @@ a:visited{
     width: 100px;
 }
 .logo{
+    margin-left:0;
     display: flex;
     align-items: center;
     width: 0px;
 }
 
 .menu{
+    margin-left:200;
     display: flex;
     align-items: center;
     
@@ -353,6 +355,8 @@ footer .widget_title_text{
 .container_logomenu{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 
 }
 @media (max-width:600px){
@@ -413,9 +417,8 @@ footer .widget_title_text{
         
      }
      .container_logomenu{
-         width: auto;
+         width: 100%;
+
      }
-     nav{
-         width: 300px;
-     }
+    
 }
